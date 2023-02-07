@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:study_flutter_03_webtoon/screens/home_screen.dart';
-import 'package:study_flutter_03_webtoon/services/api_service.dart';
+import 'package:study_flutter_03_webtoon/screens/home_screen2.dart';
 
 void main() {
-  ApiService().getTodaysToons();
+  // ApiService().getTodaysToons();
   runApp(const App());
 }
 
@@ -17,7 +16,7 @@ class App extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomeScreen(),
+      home: HomeScreen2(),
     );
   }
 }
