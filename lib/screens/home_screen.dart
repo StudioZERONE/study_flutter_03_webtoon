@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:study_flutter_03_webtoon/models/webtoon_model.dart';
-import 'package:study_flutter_03_webtoon/services/api_service.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -14,7 +13,7 @@ class _HomeScreenState extends State<HomeScreen> {
   bool isLoading = true;
 
   void waitForWebToons() async {
-    webtoons = await ApiService.getTodaysToons();
+    // webtoons = await ApiService.getTodaysToons();
     isLoading = false;
     setState(() {});
   }
