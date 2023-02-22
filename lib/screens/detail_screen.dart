@@ -98,7 +98,7 @@ class _DetailScreenState extends State<DetailScreen> {
                   Hero(
                     tag: widget.id,
                     child: Container(
-                      width: 400,
+                      width: 293,
                       clipBehavior: Clip.hardEdge,
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(15),
